@@ -70,5 +70,9 @@ public class AppWindow{
     public void setLabelText(String text){
         this.label.setText(text);
     }
+
+    public void setForeground(Color c){
+        this.label.setForeground(c);
+    }
 }
 

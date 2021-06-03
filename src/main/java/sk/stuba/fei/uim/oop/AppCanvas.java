@@ -40,7 +40,7 @@ public class AppCanvas extends Canvas implements ActionListener, MouseMotionList
                 color_counter++;
             }
             Color c = colors.get(color_counter);
-            this.window.setLabelText(c.toString());
+            this.window.setForeground(c);
         }
 
         if(button.equals("Move")){
